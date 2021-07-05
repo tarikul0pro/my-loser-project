@@ -45,3 +45,66 @@ padding: 0 20px;
 color: grey red;
 
  }
+ .img{
+max-width: 100%;
+
+ }
+ .img-box{
+position: relative;
+ }
+ .content{
+position: absolute;
+top: 50%;
+left:50%;
+width:70%;
+transform: translate(-50%,-50%);
+
+ }
+ .hookup{
+color: white;
+
+
+ }
+ .hookup h2{
+
+font-size: 20px;
+font-family: arial;
+margin-bottom:18px;
+
+ }
+ .hookup h1{
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom:15px;
+ }
+ .hookup p{
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom:5px;
+ }
+ p{
+color: white;
+ }
+ .hookup a{
+text-decoration: none;
+font-size: 20px;
+padding: 14px 25px;
+border: 1px solid red;
+border-radius: 25px;
+transition: 0.4s all;
+display: inline-block;
+background: transparent;
+text-transform: capitalize;
+
+ }
+ .hookup a:hover{
+background: tomato;
+
+
+ }
+ .wrapper{
+margin-bottom:100px;
+
+
+ }
+
